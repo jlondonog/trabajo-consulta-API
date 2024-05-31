@@ -1,0 +1,32 @@
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: rgb(165 147 147);
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    background-color: rgb(90, 81, 81);
+}
+
+.contenedor-imagen{
+    display: flex;
+}
+
+.contenedor-imagen img {
+    width: 150px;
+    height: 260px;
+}
+
+article{
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+}
